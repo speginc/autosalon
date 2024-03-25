@@ -13,9 +13,28 @@ public Auto(int pocetKoni,int cena,String barva){
     this.pocetKoni = pocetKoni;
 }
 
+    public void vypisInfo() {
+        System.out.println("auto ma "+ pocetSedadel+" sedadel, "+
+        pocetDveri+"dveří, "+pocetNahradnichKol+" nahradních kol "+
+        pocetKoni+" pocet koní, barva je "+barva+", a celkova cena je"+cena);
 
+    }
 
+    public void jizdaStart(){
+    System.out.println("auto zacalo svou jizdu");
+    }
 
+    public int getPocetKoni() {
+        return pocetKoni;
+    }
+
+    public int getCena() {
+        return cena;
+    }
+
+    public String getBarva() {
+        return barva;
+    }
 
 
 
